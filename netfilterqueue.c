@@ -6108,12 +6108,12 @@ PyMODINIT_FUNC PyInit_netfilterqueue(void)
   __pyx_vtable_14netfilterqueue_Packet.drop = (PyObject *(*)(struct __pyx_obj_14netfilterqueue_Packet *, int __pyx_skip_dispatch))__pyx_f_14netfilterqueue_6Packet_drop;
   __pyx_vtable_14netfilterqueue_Packet.repeat = (PyObject *(*)(struct __pyx_obj_14netfilterqueue_Packet *, int __pyx_skip_dispatch))__pyx_f_14netfilterqueue_6Packet_repeat;
   if (PyType_Ready(&__pyx_type_14netfilterqueue_Packet) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
-  __(void) 0; // pyx_type_14netfilterqueue_Packet.tp_print = 0;
+    (void) 0; // __pyx_type_14netfilterqueue_Packet.tp_print = 0;
   if (__Pyx_SetVtable(__pyx_type_14netfilterqueue_Packet.tp_dict, __pyx_vtabptr_14netfilterqueue_Packet) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
   if (PyObject_SetAttrString(__pyx_m, "Packet", (PyObject *)&__pyx_type_14netfilterqueue_Packet) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
   __pyx_ptype_14netfilterqueue_Packet = &__pyx_type_14netfilterqueue_Packet;
   if (PyType_Ready(&__pyx_type_14netfilterqueue_NetfilterQueue) < 0) __PYX_ERR(0, 151, __pyx_L1_error)
-  __(void) 0; // pyx_type_14netfilterqueue_NetfilterQueue.tp_print = 0;
+    (void) 0; // __pyx_type_14netfilterqueue_NetfilterQueue.tp_print = 0;
   if (PyObject_SetAttrString(__pyx_m, "NetfilterQueue", (PyObject *)&__pyx_type_14netfilterqueue_NetfilterQueue) < 0) __PYX_ERR(0, 151, __pyx_L1_error)
   __pyx_ptype_14netfilterqueue_NetfilterQueue = &__pyx_type_14netfilterqueue_NetfilterQueue;
   /*--- Type import code ---*/
